@@ -1,5 +1,5 @@
 StockSense
-
+ 
         StockSense is a centralized, modular Inventory Management System designed to replace manual registers, Excel sheets, and fragmented stock tracking with a simple, real-time digital workflow. Built with a modern React-based interface and Vite setup, the system provides a unified platform for inventory managers and warehouse staff to manage products, locations, receipts, deliveries, internal transfers, stock adjustments, and movement history. The frontend uses React with Tailwind CSS and Lucide icons for a clean, responsive interface, while the application can be served locally through the included Python server.
         
         StockSense turns every stock movement into a traceable operation. When goods arrive, a Receipt automatically increases stock; when goods are dispatched, a Delivery Order decreases stock; Internal Transfers move stock between locations without changing the organization's total inventory; and Stock Adjustments reconcile system quantities with physical counts. Each operation is recorded in a Move History/Stock Ledger, creating a clear trail of how inventory changed.
